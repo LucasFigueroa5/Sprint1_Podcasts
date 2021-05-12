@@ -1,0 +1,28 @@
+
+.episodios {
+    margin-top: 2.4rem;   
+}
+.fondo {
+    position: relative;
+    padding: 7.5rem 0;
+    width: 100%;
+    background: linear-gradient(
+    225deg, #0000ff 0%, #0000a3 100%);
+    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
+    z-index: -1;
+    border: 3px rgb(24, 207, 0) solid;
+}
+.episodios h1 {
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.podcasts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.podcasts iframe {
+    height: 15.5rem;
+    width: 35rem;
+}
