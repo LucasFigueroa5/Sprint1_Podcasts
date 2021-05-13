@@ -1,0 +1,28 @@
+.icono-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    justify-content: center;
+    
+}
+.icono {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6.5rem;
+    
+
+}
+.icono img {
+    width: 10.4rem;
+    transition: 2s;
+}
+.icono img:hover {
+    width: 200px;  
+    cursor: pointer;  
+}
+.icono h2 {
+    margin-top: -0.2rem;
+    font-weight: bold;
+}

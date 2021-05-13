@@ -21,6 +21,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 2rem;
+    z-index: 30;
 }
 .podcasts iframe {
     height: 15.5rem;

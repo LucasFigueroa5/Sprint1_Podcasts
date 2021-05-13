@@ -5,11 +5,16 @@
     flex-direction: column;
     align-items: center;
 }
-
+.phone {
+    width: 100%;
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: center;
+}
 .phone img {
     position: relative;
     bottom: 6rem;
-    width: 36rem;
+    width: 30rem;
 }
 .title-med {
     margin-top: -8.5rem;

@@ -1,14 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-    /* border: black solid 1px; */
-}
-html {
-  font-size: 62.5%;
-}
-
 #burger {
     display: none;
 }
@@ -23,8 +12,8 @@ html {
     
 }
 .logo {
-    width: 24px;
-    margin-left: 16px;
+    width: 2.4rem;
+    margin-left: 1.6rem;
    
 }
 .container-burger {
@@ -78,10 +67,14 @@ html {
     color: white;
     transition: all 0.5s ease;
     font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.6rem;
     }
     
     .menu-burger ul li a:hover {
-      background-color: #00F3BB;
+      background-image: linear-gradient(225deg, blue 0%, #00F3BB 100%);
+      color: blue;
+      font-weight: 800;
+      text-decoration: line-through;
     
     }
   
@@ -110,20 +103,40 @@ html {
     transition: all 0.8s;
     }
 
-
+ /* VERSION DESKTOP */
 
     @media (min-width: 900px) {
-      /* VERSION DESKTOP */
       
-        nav {
-          display: flex;
-        }
-        
-      nav ul {
-        width: 100%;
+      .menu-bar label {
+        display: none;
+      }
+      .menu-bar img {
+        z-index: 5000;
+      }
+     
+      .menu-burger {
+        background: none;
+        z-index: 200;
+        display: flex;
+        justify-content: flex-end;
+      
 
       }
-
+      .menu-burger ul  {
+          display: flex;
+          flex-direction: row;
+          margin-right: 10rem;
+          
+        
+      }
+      .menu-burger ul li a {
+        color: #0000ff;
+        
+      
+      }
+        
+        
+      
 
     }
 
