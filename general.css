@@ -39,11 +39,11 @@ p {
     margin-top: 1.6rem;
     max-width: 62.8rem;
 }
-.btn-up {
+/* .btn-up {
     width: 4rem;
     z-index: 6000;
     position: fixed;
     bottom: 10px;
     right: 10px;
     transform: rotate(-90deg);
-}
+} */
