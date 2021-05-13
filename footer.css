@@ -11,10 +11,12 @@
 }
 .redes img {
     width: 2.8rem;
+    transition: all 1s ease;
 }
 .redes img:hover {
     cursor: pointer;
-    color: blue;
+    /* transform: rotate(360deg); */
+    width: 4rem;    
 }
 .footer-container p {
     width: auto;
