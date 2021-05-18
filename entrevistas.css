@@ -1,9 +1,7 @@
 .entrevistas {
     width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+    flex-direction: column;    
 }
 .images {
     margin-top: 2rem;
@@ -14,7 +12,19 @@
 }
 .images img:hover {
     opacity: 0.5;
-    
-   
+}
 
+@media (min-width: 500px) {
+    .images {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);        
+    }
+}
+
+
+@media (min-width: 900px) {
+    .images {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
 }

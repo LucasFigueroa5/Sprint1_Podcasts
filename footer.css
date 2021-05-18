@@ -7,18 +7,20 @@
 .redes {
     display: flex;     
     justify-content: space-between;
-    margin: 3.1rem 0;
+    margin: 3.1rem auto;
+    width: 22rem;
+
 }
 .redes img {
-    width: 2.8rem;
-    transition: all 1s ease;
+    width: 1.6rem;
+    transition: all 0.5s ease;
 }
 .redes img:hover {
     cursor: pointer;
     /* transform: rotate(360deg); */
-    width: 4rem;    
+    width: 2.4rem;    
 }
 .footer-container p {
-    width: auto;
+    margin-left: 0;
 }
                    

@@ -12,8 +12,9 @@
 }
 .phone img {
     position: relative;
-    bottom: 6rem;
-    width: 80%;
+    bottom: 13rem;
+    width: 360px;
+    overflow: hidden;
 }
 .title-med {
     margin-top: -8.5rem;

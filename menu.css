@@ -9,12 +9,14 @@
     z-index: 100;
     background-color: white;
     position: relative;
-    
 }
 .logo {
     width: 2.4rem;
     margin-left: 1.6rem;
    
+}
+.logo:hover {
+  cursor: pointer;
 }
 .container-burger {
     height: 20px;
@@ -22,7 +24,7 @@
     display: inline-block;
     cursor: pointer;
     position: relative;
-    margin-right: 16px;
+    margin-right: 1.6rem;
   }
   
 
@@ -109,32 +111,50 @@
       .menu-bar label {
         display: none;
       }
-      .menu-bar img {
-        z-index: 5000;
-      }
+      .logo {
+        margin-left: 8rem;       
+    }
+      .menu-burger ul li a {
+    
+        text-decoration: none;
+        display: inline-block;
+        
+        color: #060A24;
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 1.6rem;
+        }
+        
+        .menu-burger ul li a:hover {
      
-      .menu-burger {
-        background: none;
-        z-index: 200;
+          color: #00F3BB;
+          text-decoration: line-through;    
+        text-decoration: line-through;
+          text-decoration: line-through;    
+        }
+      
+      .option-margin {
+           padding-bottom: 0;
+           padding-top: 0;
+      }
+      .menu-burger ul {
+        list-style: none;
+          flex-direction: row;
+          margin-right: 3rem;      
+      }      
+            
+      nav {
         display: flex;
         justify-content: flex-end;
+        background: none;         
+        z-index: 200;
+        transform: none;
+        opacity: 1;
+        transition: none;
       }
-      .menu-burger ul  {
-          display: flex;
-          flex-direction: row;
-          margin-right: 10rem;        
-      }
-      .menu-burger ul li a {
-        color: #0000ff;  
-        padding-left: 0;
-        margin-left: 2rem;   
-        font-weight: 800;  
-      }
-      .menu-burger ul li a:hover {
-        background: none;
-        font-weight: 800;
-        text-decoration: line-through;
-      
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-between;
       }
     }
-

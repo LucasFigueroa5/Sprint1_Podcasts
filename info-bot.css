@@ -13,12 +13,11 @@
     margin: auto;
 }
 .fondo2 {
-    position: relative;
+    /* position: relative; */
     padding: 7.5rem 0;
     width: 100%;
     background: linear-gradient(
     225deg, #0000ff 0%, #0000a3 100%);
-    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
-    z-index: -1;
+    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);    
 }
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

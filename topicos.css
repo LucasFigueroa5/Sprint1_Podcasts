@@ -16,13 +16,47 @@
 }
 .icono img {
     width: 10.4rem;
-    transition: 2s;
+    transition: 0.5s;
 }
 .icono img:hover {
-    width: 200px;  
+    width: 12rem;  
     cursor: pointer;  
 }
 .icono h2 {
     margin-top: -0.2rem;
     font-weight: bold;
+    margin-left: 0;
+}
+
+
+
+/* VERSION DESKTOP */
+
+@media (min-width: 900px) {
+    .icono-container {
+        display: flex;
+        flex-direction: row;
+        margin: 5rem 15rem;
+        justify-content: space-around;        
+    }
+    .icono h2 {
+        margin-top: 1rem;
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: normal;    
+    }
+    .icono {
+        justify-content: start;
+    }
+
+
+
+
+
+
+
+
+
+
+
 }
