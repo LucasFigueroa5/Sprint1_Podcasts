@@ -1,8 +1,24 @@
 .footer-container {
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
     text-align: center;
+    justify-content: center;
+}
+.fab {
+    font-size: 1.6rem;
+    transition: all 0.5s ease;
+}
+.fab:hover {
+    color: #00F3BB;
+    font-size: 2.4rem;
+    cursor: pointer;
+}
+.fab:active {
+    color: #00F3BB;
+    font-size: 3.2rem;
+    cursor: pointer;    
+    transform: translateY(-3rem) rotate(360deg);
 }
 .redes {
     display: flex;     
@@ -11,16 +27,19 @@
     width: 22rem;
 
 }
-.redes img {
-    width: 1.6rem;
-    transition: all 0.5s ease;
-}
-.redes img:hover {
-    cursor: pointer;
-    /* transform: rotate(360deg); */
-    width: 2.4rem;    
-}
 .footer-container p {
     margin-left: 0;
+}
+
+
+@media (min-width: 900px) {
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto 9rem;
+    }
+    .redes {
+        margin: 3.1rem 0;
+    }
 }
                    

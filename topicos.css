@@ -24,7 +24,6 @@
 }
 .icono h2 {
     margin-top: -0.2rem;
-    font-weight: bold;
     margin-left: 0;
 }
 
@@ -36,7 +35,7 @@
     .icono-container {
         display: flex;
         flex-direction: row;
-        margin: 5rem 15rem;
+        margin: 5rem 15rem 0 15rem;
         justify-content: space-around;        
     }
     .icono h2 {
@@ -47,6 +46,7 @@
     }
     .icono {
         justify-content: start;
+
     }
 
 

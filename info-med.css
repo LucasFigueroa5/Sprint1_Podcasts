@@ -1,9 +1,9 @@
 .info-med {
-/*     border: 2px greenyellow solid; */
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .phone {
     width: 100%;
@@ -18,4 +18,20 @@
 }
 .title-med {
     margin-top: -8.5rem;
+}
+
+
+@media (min-width: 900px) {
+    .info-med {
+        flex-direction: row;
+    }
+    .title-med {
+        margin-top: -22.5rem;
+    }
+    .title-med p {
+        max-width: 46.4rem;
+    }
+    .phone {
+        width: auto;
+    }
 }

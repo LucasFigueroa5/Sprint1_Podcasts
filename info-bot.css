@@ -1,10 +1,15 @@
 .info-bot { 
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center; 
+}
+.position-bot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .info-bot div {
-    margin-top: -1rem;
+    margin-top: 4rem;
 }
 .info-bot h1 {
     color: white;
@@ -18,6 +23,6 @@
     width: 100%;
     background: linear-gradient(
     225deg, #0000ff 0%, #0000a3 100%);
-    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);    
+    clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);    
 }
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

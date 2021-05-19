@@ -114,14 +114,14 @@
       .logo {
         margin-left: 8rem;       
     }
-      .menu-burger ul li a {
-    
+      .menu-burger ul li a {    
         text-decoration: none;
         display: inline-block;
-        
+        transition: none;
         color: #060A24;
         font-family: 'IBM Plex Mono', monospace;
         font-size: 1.6rem;
+        transform: none;
         }
         
         .menu-burger ul li a:hover {
