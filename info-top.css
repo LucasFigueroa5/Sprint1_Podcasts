@@ -4,6 +4,10 @@
     justify-content: start;
     align-items: flex-start;    
 }
+.punto {
+    color: blue;
+    
+}
 
 .tachado {
     text-decoration: line-through;
