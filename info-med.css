@@ -9,15 +9,15 @@
     width: 100%;
     display: flex;
     justify-content: center;
-}
-.phone img {
     position: relative;
     bottom: 13rem;
+}
+.phone img {
     width: 360px;
     overflow: hidden;
 }
 .title-med {
-    margin-top: -8.5rem;
+    margin-top: -13.5rem;
 }
 
 
